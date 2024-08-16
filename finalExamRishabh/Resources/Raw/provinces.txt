@@ -1,0 +1,10 @@
+1,Ontario,Toronto,Canada's most populous province.,14670000,ontario.png
+2,Quebec,Quebec City,Predominantly French-speaking province.,8670000,quebec.png
+3,British Columbia,Victoria,Known for its natural beauty.,5300000,british_columbia.png
+4,Alberta,Edmonton,Rich in oil resources and home to the Rockies.,4500000,alberta.png
+5,Manitoba,Winnipeg,Famous for its prairies and cultural hub Winnipeg.,1400000,manitoba.png
+6,Saskatchewan,Regina,Landlocked province known for vast farmlands.,1180000,saskatchewan.png
+7,Nova Scotia,Halifax,Maritime province known for coastal beauty.,1000000,nova_scotia.png
+8,New Brunswick,Fredericton,Bilingual province with English and French.,790000,new_brunswick.png
+9,Newfoundland and Labrador,St. John's,Known for rugged coastline and rich culture.,520000,newfoundland_and_labrador.png
+10,Prince Edward Island,Charlottetown,"Smallest province famous for red sand beaches.",160000,prince_edward_island.png

@@ -8,5 +8,31 @@ namespace finalExamRishabh.BusinessLogic
 {
     public class Province
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+        public string Capital { get; set; }
+
+        public string Description { get; set; }
+
+        public int Population { get; set; }
+
+        public string Flag { get; set; }
+
+        public Province() { }
+
+        public Province(int id, string name, string captial, string description, int population, string flag)
+        {
+            Id = id;
+            Name = name;
+            Capital = captial;
+            Description = description;
+            Population = population;
+            Flag = flag;
+        }
+        public override string ToString()
+        {
+            return $"{Name} ({Capital})";
+        }
     }
 }

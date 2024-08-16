@@ -1,4 +1,6 @@
-﻿namespace finalExamRishabh
+﻿using finalExamRishabh.UI;
+
+namespace finalExamRishabh
 {
     public partial class MainPage : ContentPage
     {
@@ -10,9 +12,9 @@
         }
 
 
-        private void OnProvincePage(object sender, EventArgs e)
+        private async void OnProvincePage(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new Provinces());
         }
     }
 

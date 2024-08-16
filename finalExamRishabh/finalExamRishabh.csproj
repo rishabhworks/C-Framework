@@ -63,10 +63,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="BusinessLogic\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="UI\Provinces.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

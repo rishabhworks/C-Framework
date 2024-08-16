@@ -14,7 +14,7 @@ namespace finalExamRishabh
 
         private async void OnProvincePage(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Provinces());
+            await Navigation.PushAsync(new ProvincesPage());
         }
     }
 

@@ -4,9 +4,12 @@
              x:Class="finalExamRishabh.UI.DetailsPage"
              Title="DetailsPage">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <StackLayout>
+            <Label x:Name="ProvinceName"/>
+            <Label x:Name="ProvinceCapital"/>
+            <Label x:Name="ProvinceDescription"/>
+            <Label x:Name="ProvincePopulation"/>
+            <Image x:Name="ProvinceFlag"/>
+        </StackLayout>
     </VerticalStackLayout>
 </ContentPage>

@@ -5,8 +5,10 @@
              Title="ProvincesPage">
     <VerticalStackLayout>
         <StackLayout>
-            <Button Text="Get Data" Clicked="OnGetDataClicked"/>
-            <ListView x:Name="ProvincesListView" ItemSelected="OnProvinceSelected"/>
+            <StackLayout>
+                <Button Text="Get Data" Clicked="OnGetDataClicked"/>
+                <ListView x:Name="ProvincesListView" ItemSelected="OnProvinceSelected"/>
+            </StackLayout>
         </StackLayout>
     </VerticalStackLayout>
 </ContentPage>

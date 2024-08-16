@@ -21,15 +21,16 @@ namespace finalExamRishabh.BusinessLogic
 
         public Province() { }
 
-        public Province(int id, string name, string captial, string description, int population, string flag)
+        public Province(int id, string name, string capital, string description, int population, string flag)
         {
             Id = id;
             Name = name;
-            Capital = captial;
+            Capital = capital;
             Description = description;
             Population = population;
             Flag = flag;
         }
+
         public override string ToString()
         {
             return $"{Name} ({Capital})";

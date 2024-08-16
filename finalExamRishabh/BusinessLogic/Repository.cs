@@ -8,28 +8,25 @@ namespace finalExamRishabh.BusinessLogic
 {
     public class Repository
     {
-        public List
-       <Province> LoadProvinces(string filePath)
+        public List<Province> LoadProvinces(StreamReader reader)
         {
-            var provinces = new List
-                <Province>();
-
-            var lines = File.ReadAllLines(filePath);
-            foreach (var line in lines)
+            var provinces = new List<Province>();
             {
-                var parts = line.Split(',');
-                var province = new Province(
-                    int.Parse(parts[0]),
-                    parts[1],
-                    parts[2],
-                    parts[3],
-                    int.Parse(parts[4]),
-                    parts[5]
-                );
+                string line; while ((line = reader.ReadLine()) != null)
+                {
+                    var parts = line.Split(',');
+                    var province = new Province(
+                        int.Parse(parts[0]),
+                        parts[1],
+                        parts[2],
+                        parts[3],
+                        int.Parse(parts[4]),
+                        parts[5]
+                    );
 
-                provinces.Add(province);
+                    provinces.Add(province);
+                }
             }
-
             return provinces;
         }
     }
